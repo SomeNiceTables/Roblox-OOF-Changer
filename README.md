@@ -7,6 +7,8 @@ Coded in Python
 
 (MAKE SURE YOU RUN IT IN A TERMINAL)
 
+cmd is ``python3 main.py``
+
 btw windows only
 
 i feel like making a whole program that changes every default sound in roblox
