@@ -5,7 +5,7 @@
 import urllib.request, json, requests, getpass, shutil
 print("Checking Roblox version")
 
-with urllib.request.urlopen("https://api.whatexploitsare.online/logs/Synapse/1") as url:
+with urllib.request.urlopen("https://sirhurt.net/status/fetch.php?exploit=SirHurt%20V4") as url:
     data = json.loads(url.read().decode())
 
 for i in range(len(data)):
