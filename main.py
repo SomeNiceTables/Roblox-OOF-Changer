@@ -15,7 +15,7 @@ cometstuff = dictionary['1']
 
 print("Downloading normal OOF file")
 
-request = requests.get("https://cdn.discordapp.com/attachments/985478681793282128/1001625277740351488/uuhhh-1.ogg")
+request = requests.get("https://raw.githubusercontent.com/SomeNiceTables/Roblox-OOF-Changer/main/oof.ogg)
 open("ouch.ogg", "wb").write(request.content)
 user = getpass.getuser()
 
