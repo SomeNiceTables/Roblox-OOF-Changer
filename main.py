@@ -1,6 +1,7 @@
 # Roblox Oof Changer wowowowoow
 # Made By SomeNiceTables#9850
 # you must have the latest version of roblox for it to work
+# also make sure the script is up to date if it doesnt work, if it doesnt work contact me
 
 import urllib.request, json, requests, getpass, shutil
 print("Checking Roblox version")
