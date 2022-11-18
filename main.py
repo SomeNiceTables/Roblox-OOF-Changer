@@ -12,7 +12,7 @@ with urllib.request.urlopen("https://sirhurt.net/status/fetch.php?exploit=SirHur
 for i in range(len(data)):
     dictionary = data[i]
 
-cometstuff = dictionary['1']
+cometstuff = dictionary["ROBLOX"]
 
 print("Downloading normal OOF file")
 
@@ -25,5 +25,5 @@ destination2 = "\AppData\Local\Roblox\Versions\\"
 
 print("Replacing new OOF File with old one")
 
-shutil.move("ouch.ogg", destination1 + user + destination2 + cometstuff["roblox_version"] + "\content\sounds\ouch.ogg")
+shutil.move("ouch.ogg", destination1 + user + destination2 + cometstuff["version"] + "\content\sounds\ouch.ogg")
 input("Done (press enter to exit)")
