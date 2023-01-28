@@ -6,7 +6,7 @@
 import urllib.request, json, requests, getpass, shutil
 print("Checking Roblox version")
 
-with urllib.request.urlopen("https://api.weao.dev/status") as url:
+with urllib.request.urlopen("https://api.whatexploitsare.online/status") as url:
     data = json.loads(url.read().decode())
 
 for i in range(len(data)):
