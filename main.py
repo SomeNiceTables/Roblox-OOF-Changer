@@ -21,10 +21,12 @@ request = requests.get("https://raw.githubusercontent.com/SomeNiceTables/Roblox-
 open("ouch.ogg", "wb").write(request.content)
 user = getpass.getuser()
 
-# destination1 = r"C:\Users\\"
-# destination2 = "\AppData\Local\Roblox\Versions\\"
+destination1 = r"C:\Users\\"
+destination2 = "\AppData\Local\Roblox\Versions\\"
 
 print("Replacing new OOF File with old one")
 
-shutil.move("ouch.ogg", "C:\Program Files (x86)\Roblox\Versions\\" + cometstuff["version"] + "\content\sounds\ouch.ogg")
+shutil.move("ouch.ogg", destination1 + user + destination2 + cometstuff["version"] + "\content\sounds\ouch.ogg")
 input("Done (press enter to exit)")
+
+
