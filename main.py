@@ -7,13 +7,10 @@
 import urllib.request, json, requests, getpass, shutil
 print("Checking Roblox version")
 
-with urllib.request.urlopen("https://api.whatexploitsare.online/status") as url:
+with urllib.request.urlopen("https://clientsettings.roblox.com/v2/client-version/WindowsPlayer") as url:
     data = json.loads(url.read().decode())
 
-for i in range(len(data)):
-    dictionary = data[i]
-
-cometstuff = dictionary["ROBLOX"]
+version = data["clientVersionUpload"]
 
 print("Downloading normal OOF file")
 
@@ -26,7 +23,7 @@ destination2 = "\AppData\Local\Roblox\Versions\\"
 
 print("Replacing new OOF File with old one")
 
-shutil.move("ouch.ogg", destination1 + user + destination2 + cometstuff["version"] + "\content\sounds\ouch.ogg")
+shutil.move("ouch.ogg", destination1 + user + destination2 + version + "\content\sounds\ouch.ogg")
 input("Done (press enter to exit)")
 
 
