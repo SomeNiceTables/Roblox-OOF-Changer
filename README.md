@@ -1,6 +1,9 @@
 
 # Roblox OOF Changer
 
+> [!WARNING]
+> This repo has been archived. Roblox brought back the oof sound so there's no intended purpose for this repo. It will be no longer maintained.
+
 A simple OOF changer for roblox since they removed the old one
 
 Coded in Python
